@@ -1,8 +1,11 @@
 import React from 'react'
+import EventsType from '../components/EventsType'
 
 const Home = () => {
   return (
-    <div></div>
+    <div>
+      <EventsType/>
+    </div>
   )
 }
 
