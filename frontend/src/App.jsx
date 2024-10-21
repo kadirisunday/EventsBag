@@ -1,13 +1,16 @@
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from './components/header/header'
-import Home from './components/home/Home'
-import Footer from './components/Footer/Footer'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Navbar from './components/Navbar'
+
 function App() {
    return (
     <>
-      <Header/>
-      <Home/>
-      <Footer/>
+    <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
     </>
   )
 }
