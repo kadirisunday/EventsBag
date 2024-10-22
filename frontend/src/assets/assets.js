@@ -15,21 +15,14 @@ import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
-import doc1 from './doc1.png'
-import doc2 from './doc2.png'
-import doc3 from './doc3.png'
-import doc4 from './doc4.png'
-import doc5 from './doc5.png'
-import doc6 from './doc6.png'
-import doc7 from './doc7.png'
-import doc8 from './doc8.png'
-import doc9 from './doc9.png'
-import doc10 from './doc10.png'
-import doc11 from './doc11.png'
-import doc12 from './doc12.png'
-import doc13 from './doc13.png'
-import doc14 from './doc14.png'
-import doc15 from './doc15.png'
+import digital from './digital.jpeg'
+import care from './care.jpeg'
+import europe from './europe.jpeg'
+import karaoke from './karaoke.jpeg'
+import kundalin from './kundallin.jpeg'
+import rise from './rise.jpeg'
+import shore from './shore.jpeg'
+import futures from './futures.jpeg'
 import Music from './Music.svg'
 import Arts from './Arts.svg'
 import Dating from './Dating.svg'
@@ -95,15 +88,16 @@ export const eventsType = [
     },
 ]
 
-export const doctors = [
+export const allEvents = [
     {
-        _id: 'doc1',
-        name: 'Dr. Richard James',
-        image: doc1,
-        category: 'General physician',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt32',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: digital,
+        category: 'Technology',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -111,13 +105,14 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc2',
-        name: 'Dr. Emily Larson',
-        image: doc2,
-        category: 'Gynecologist',
-        degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt2',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: care,
+        category: 'Health',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -125,13 +120,14 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc3',
-        name: 'Dr. Sarah Patel',
-        image: doc3,
-        category: 'Dermatologist',
-        degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt3',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: europe,
+        category: 'Travel',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -139,13 +135,14 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc4',
-        name: 'Dr. Christopher Lee',
-        image: doc4,
-        category: 'Pediatricians',
-        degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt4',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: karaoke,
+        category: 'Travel',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -153,13 +150,14 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
-        image: doc5,
-        category: 'Neurologist',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt5',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: kundalin,
+        category: 'Travel',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -167,13 +165,14 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc6',
-        name: 'Dr. Andrew Williams',
-        image: doc6,
-        category: 'Neurologist',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt6',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: shore,
+        category: 'Travel',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -181,13 +180,14 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc7',
-        name: 'Dr. Christopher Davis',
-        image: doc7,
-        category: 'General physician',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        _id: 'evt7',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: rise,
+        category: 'Travel',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -196,114 +196,17 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
-        image: doc8,
-        category: 'Gynecologist',
-        degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        title: 'Digital Wellbeing: A Crash Course',
+        image: futures,
+        category: 'Travel',
+        location: 'The Podium',
+        date: 'Tuesday, October 22, 2024',
+        about: 'In today’s hyper-connected world, finding balance between our digital lives and overall health is essential. Join our Digital Wellbeing Crash Course to discover practical strategies for maintaining a healthier relationship with technology. Whether you’re glued to your smartphone or spend hours online, this crash course will empower you to make intentional choices that enhance your wellbeing.',
+        organizer: 'Rain Water Growth',
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
         }
-    },
-    {
-        _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
-        image: doc9,
-        category: 'Dermatologist',
-        degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
-        address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc10',
-        name: 'Dr. Jeffrey King',
-        image: doc10,
-        category: 'Pediatricians',
-        degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
-        address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
-        image: doc11,
-        category: 'Neurologist',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
-        address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc12',
-        name: 'Dr. Patrick Harris',
-        image: doc12,
-        category: 'Neurologist',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
-        address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc13',
-        name: 'Dr. Chloe Evans',
-        image: doc13,
-        category: 'General physician',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
-        address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
-        image: doc14,
-        category: 'Gynecologist',
-        degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
-        address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc15',
-        name: 'Dr. Amelia Hill',
-        image: doc15,
-        category: 'Dermatologist',
-        degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
-        address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
+    }
 ]
