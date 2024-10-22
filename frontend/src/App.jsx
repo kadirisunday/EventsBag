@@ -7,6 +7,7 @@ import FindTicket from './pages/FindTicket'
 import Login from './pages/Login'
 import Navbar from './components/Navbar'
 import CreateEvents from './pages/CreateEvents'
+import Footer from './components/Footer'
 
 function App() {
    return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/find-ticket' element={<FindTicket/>}/>
         <Route path='/login' element={<Login/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }

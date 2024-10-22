@@ -3,9 +3,11 @@ import { assets } from '../assets/assets'
 import { NavLink, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+    const navigate = useNavigate();
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
-        <img className='w-44 cursor-pointer' src='' alt="Eventsbag Logo" />
+        {/* <img className='w-44 cursor-pointer' src='' alt="Eventsbag Logo" /> */}
+        <p className='text-2xl font-semibold'>Eventsbag</p>
         <ul className='hidden md:flex items-start gap-5 font-medium'>
             <NavLink to='/find-events'>
                 <li className='py-1'>Find Events</li>
